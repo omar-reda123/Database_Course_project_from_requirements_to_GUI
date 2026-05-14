@@ -3,6 +3,8 @@ CREATE TABLE University
 	University_ID INT PRIMARY KEY,
 	University_Name VARCHAR(50) NOT NULL
 );
+ALTER TABLE University
+ADD CONSTRAINT UQ_University_Name UNIQUE (University_Name);
 CREATE TABLE Faculty
 (
 	Faculty_ID INT PRIMARY KEY,
