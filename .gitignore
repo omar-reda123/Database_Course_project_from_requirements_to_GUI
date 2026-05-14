@@ -2,6 +2,8 @@
 *.$*.bkp
 *.bkp
 *.dtmp
+*.ldf
+*.mdf
 
 # Word temporary files (created when a document is open)
 ~$*.docx
