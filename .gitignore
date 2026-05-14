@@ -1,0 +1,7 @@
+# Draw.io backup files
+*.$*.bkp
+*.bkp
+*.dtmp
+
+# Word temporary files (created when a document is open)
+~$*.docx
